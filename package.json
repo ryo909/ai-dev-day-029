@@ -1,0 +1,15 @@
+{
+    "name": "ai-dev-day-template",
+    "private": false,
+    "version": "1.0.0",
+    "description": "AI個人開発実験 Day テンプレート",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "vite": "^6.0.0"
+    }
+}

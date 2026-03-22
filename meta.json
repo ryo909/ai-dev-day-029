@@ -1,0 +1,17 @@
+{
+  "day": "Day001",
+  "title": "Tool title",
+  "description": "One-line description for this tool.",
+  "genre": "productivity",
+  "theme": "NeoLab",
+  "story_summary": "A compact tool created to reduce one repetitive task in daily work.",
+  "tool_name": "Tool title",
+  "core_action": "transform",
+  "twist": "One clear differentiator",
+  "one_sentence": "One-sentence description",
+  "keywords": [
+    "template"
+  ],
+  "repo_name": "ai-dev-day-001",
+  "pages_url": "https://USERNAME.github.io/ai-dev-day-001/"
+}

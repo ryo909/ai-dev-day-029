@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Dev Tool Template</title>
+    <meta name="description" content="AI個人開発実験 Dayテンプレート">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <header class="app-header">
+            <div id="headerBadge" class="header-badge">DayXXX</div>
+            <h1 id="headerTitle" class="header-title">ツール名をここに</h1>
+            <p id="headerDesc" class="header-desc">1行説明をここに</p>
+        </header>
+
+        <main class="app-main">
+            <section class="tool-area">
+                <div class="input-group">
+                    <label for="toolInput" class="input-label">Input</label>
+                    <textarea id="toolInput" class="input-textarea" placeholder="Type input here..."></textarea>
+                </div>
+
+                <button id="actionBtn" class="btn-primary">Run</button>
+
+                <div class="output-group" id="outputGroup" style="display:none">
+                    <label class="input-label">Output</label>
+                    <div id="toolOutput" class="output-area"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="app-footer">
+            <span id="footerDay">DayXXX / #100日開発</span>
+            <a href="https://github.com/USERNAME/ai-dev-day-001" target="_blank" rel="noopener">GitHub</a>
+        </footer>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
